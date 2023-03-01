@@ -34,14 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          
-      # Runs my script 
       - name: Run a multi-line script
-        run: | 
-          echo hello govind 
-          ls -a
-          echo who is working on my script ?
-          whoami
-          df
-          env
+        run: sh /new.sh   
+      
           
