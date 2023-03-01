@@ -42,4 +42,6 @@ jobs:
           ls -a
           echo who is working on my script ?
           whoami
+          df
+          env
           
