@@ -36,6 +36,8 @@ jobs:
           echo test, and deploy your project.
       - name: step-1 log the pre-build disk 
         run: df 
+      -  name: checkout  
+         uses: actions/setup.java@v1 
       - name: step 2 checkput the main github branch 
         uses: actions/setup.java@v1
         with:
